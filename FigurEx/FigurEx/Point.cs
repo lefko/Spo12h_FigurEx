@@ -39,9 +39,16 @@ namespace FigurEx
             }
         }
 
-        public void Move(int x, int y)
+        void IMoveable.Move(int x, int y)
         {
-            throw new NotImplementedException();
+            X += x;
+            Y += y;
+        }
+
+        public override string ToString()
+        {
+            return string.Format("Selected point is x: {0}, y: {1}", X, Y);
+            
         }
     }
 }

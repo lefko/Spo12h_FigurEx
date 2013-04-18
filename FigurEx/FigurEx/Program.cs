@@ -9,6 +9,7 @@ namespace FigurEx
     {
         static void Main(string[] args)
         {
+            Point p = new Point();
         }
     }
 }
