@@ -13,6 +13,13 @@ namespace FigurEx
 
             p.Move(100, 200);
             Console.WriteLine(p.ToString());
+
+            Circle c = new Circle();
+
+            Console.WriteLine();
+            Console.WriteLine(c.ToString());
+
+            Console.ReadLine();
         }
     }
 }
