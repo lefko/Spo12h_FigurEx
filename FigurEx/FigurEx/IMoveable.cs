@@ -7,5 +7,6 @@ namespace FigurEx
 {
     interface IMoveable
     {
+        void Move(int x, int y);
     }
 }
