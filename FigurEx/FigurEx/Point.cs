@@ -39,7 +39,7 @@ namespace FigurEx
             }
         }
 
-        void IMoveable.Move(int x, int y)
+        public void Move(int x, int y)
         {
             X += x;
             Y += y;

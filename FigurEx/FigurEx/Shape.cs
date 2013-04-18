@@ -23,5 +23,10 @@ namespace FigurEx
         {
             return "p1 finns på " + p1.ToString();
         }
+
+        public void Move(int x, int y)
+        {
+            p1.Move(x, y);
+        }
     }
 }
